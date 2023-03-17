@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    /*height: 100%;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-image: linear-gradient(to top , #aaae7f, #1d513b);
+}
+main{
+    background-color: aliceblue;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.419);
+    width: 600px;
+    padding: 7%;
+    margin: auto;
+    
+}
+h1{ text-align: center;
+    color: #84b59f;
+    text-shadow: 2px 2px 2px rgb(0, 128, 0);
+}
+
+h2{
+    color: #a3c9a8;
+}
+
+p {
+    text-align: justify;
+}
+logomarca {
+    height: 10px;
+    width: 10px;
+}
+
