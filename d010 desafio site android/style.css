@@ -11,31 +11,42 @@
     font-weight: normal;
     font-style: normal;
 }
+.texto{
+    text-align: justify;
+    text-indent: 0em;
+    padding: 10px;
+}
 
 body{
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: #9AFDAC;
+    
 }
 header{
     height: 150px;
     margin: 0%;
     color: white;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.342);
     background-image: linear-gradient(#4EFC6E, #4C7D55) ;
 }
 
 header > p {
     margin: 0%;
+    padding: 60px;
 }
 header > h1 {
     font-family: 'Bebas Neue';
+    margin: 0%;
 }
 main {
-    margin: 0px 100px 0px 100px;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
     background-color: white;
     padding: 10px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.342);
 }
 article > h2{
     color: #2b883c;
@@ -50,10 +61,11 @@ article > h2{
 }
 
 nav > ul{
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.342);
     background-color: #4C7D55;
     display: flex;
     list-style: none;
-    gap: 0.5rem;
+    gap: 2rem;
     margin: 0%;
 }
 
@@ -67,8 +79,8 @@ div.video{
     position: relative;
     background-color: green;
     height: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
     margin-bottom: 15px;
     padding-bottom: 59%;
 
@@ -88,42 +100,22 @@ aside > ul{
     columns: 2;
     list-style-position: inside;
 }
-@media (max-width: 400px){
-    main {
-        margin: auto;
-        background-color: white;
-    }
-    
-    nav > ul{
-        background-color: #4C7D55;
-        display: flex;
-        list-style: none;
-        gap: 0.5rem;
-    }
-    
-    a{
-        text-decoration: none;
-        color: white;
-        
-    }
-    
-    div.video{
-        position: relative;
-        background-color: green;
-        height: 0px;
-        margin-left: -20px;
-        margin-right: -20px;
-        margin-bottom: 15px;
-        padding-bottom: 59%;
-    
-    }
-    
-    div.video > iframe {
-        position: absolute;
-        top: 5%;
-        left: 5%;
-        width: 90%;
-        height: 90%;
-    
+
+aside{
+    background-color: #9AFDAC;
+    border-radius: 10px;
+    padding: 15px;
+
+
 }
+
+aside > h3{
+    background-color: #4C7D55;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    margin: -2%;
+
 }
+
