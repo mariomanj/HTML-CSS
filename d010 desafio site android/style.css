@@ -11,6 +11,12 @@
     font-weight: normal;
     font-style: normal;
 }
+/*
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*/
 .texto{
     text-align: justify;
     text-indent: 0em;
@@ -71,7 +77,8 @@ nav > ul{
 
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
     
 }
 
@@ -118,4 +125,25 @@ aside > h3{
     margin: -2%;
 
 }
+/*
+variaveis em css 
+#9AFDAC
+#4C7D55
+#2b883c
+#ffffff
+
+:root{
+    --cor0: #ffffff;
+    --cor1: #9AFDAC;
+    --cor2: #4C7D55;
+    --cor3: #2b883c;
+    
+    --fontepadrao: Arial, Helvetica, sans-serif;
+    --fontedestaque: 'Bebas Neue';
+    --fonteandroid: 'IDroid';
+
+    color: var(--cor0)
+}
+
+
 
