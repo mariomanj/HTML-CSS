@@ -11,36 +11,44 @@
     font-weight: normal;
     font-style: normal;
 }
-/*
+
 *{
     margin: 0px;
     padding: 0px;
+
 }
-*/
+
 .texto{
     text-align: justify;
-    text-indent: 0em;
+    text-indent: 1em;
     padding: 10px;
+    margin: 15px 0px;
+    line-height: 1.5em;
 }
 
 body{
-    margin: 0%;
+    min-width: 450px;
+    max-width: 2000px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: #9AFDAC;
     
 }
 header{
-    height: 150px;
-    margin: 0%;
+    min-height: 150px;  
     color: white;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.342);
-    background-image: linear-gradient(#4EFC6E, #4C7D55) ;
+    background-image: linear-gradient(#4EFC6E, #4C7D55) ;    
 }
 
 header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 0px 60px 0px;
     margin: 0%;
-    padding: 60px;
+    max-width: 600px;
+    margin: auto;
+    font-weight: bolder;
+    
 }
 header > h1 {
     font-family: 'Bebas Neue';
@@ -54,6 +62,14 @@ main {
     padding: 10px;
     box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.342);
 }
+main img {
+    width: 100%;
+}
+
+.pq {
+    max-width: 350px;
+}
+
 article > h2{
     color: #2b883c;
     font-family: 'IDroid';
@@ -67,6 +83,7 @@ article > h2{
 }
 
 nav > ul{
+    padding: 10px;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.342);
     background-color: #4C7D55;
     display: flex;
@@ -74,11 +91,22 @@ nav > ul{
     gap: 2rem;
     margin: 0%;
 }
-
-a{
+a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: bolder;
+
+}
+
+li > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    
+}
+li > a:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
     
 }
 
@@ -123,6 +151,13 @@ aside > h3{
     padding: 15px;
     border-radius: 10px 10px 0px 0px;
     margin: -2%;
+
+}
+footer{
+    background-color: #4C7D55;
+    color: white;
+    font-size: 0.8em;
+    padding: 5px;
 
 }
 /*
